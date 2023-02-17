@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog of a Chaos Engineer</title>
+    <link>https://blog.mh.s3c-it.de/</link>
+    <description>Recent content on Blog of a Chaos Engineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>by Mario Hölscher</copyright>
+    <lastBuildDate>Thu, 16 Feb 2023 07:57:22 +0100</lastBuildDate><atom:link href="https://blog.mh.s3c-it.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ansible SElinux Enforceing</title>
+      <link>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</link>
+      <pubDate>Thu, 16 Feb 2023 07:57:22 +0100</pubDate>
+      
+      <guid>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</guid>
+      <description>snipset as selinux-enforceing.yaml - hosts: all user: root become_user: root become: yes serial: 1 tasks: - name: Edit SElinux-Config lineinfile: path: /etc/selinux/config regexp: &amp;#39;^SELINUX=&amp;#39; line: SELINUX=permissive - name: Reboot Host with Defaults reboot: - name: Wait for Host to be Available again wait_for_connection: </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://blog.mh.s3c-it.de/about/</link>
+      <pubDate>Wed, 15 Feb 2023 12:39:47 +0100</pubDate>
+      
+      <guid>https://blog.mh.s3c-it.de/about/</guid>
+      <description>Mario Hölscher is a Computer enthusiast. His Research about IT-Technology start at the 90s as Cell-Phone Preaker and Unix Newbie. At the 2ks he starts as little script kiddie using sub7 and other Trojan Kits. Today he&amp;rsquo;s working as Network Security and Linux Engineer.
+His main interests are:
+Electronical Engineering. IoT. Linux Kernel Programming Network Technology for example Develop own Routing Systems based on Linux/FreeBSD/OpenBSD IT-Security. Write Exploits. Build Frequency Jammer example Wifi.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://blog.mh.s3c-it.de/post/my-first-post/</link>
+      <pubDate>Wed, 15 Feb 2023 07:51:24 +0100</pubDate>
+      
+      <guid>https://blog.mh.s3c-it.de/post/my-first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!
+H1 H2 s = &amp;#34;Python syntax highlighting&amp;#34; print s </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -57,8 +57,6 @@
 
 
 
-
-
 </head>
 
 <body>
@@ -485,7 +483,7 @@
 
             <div>
               <div class="col-12 d-inline-block text-gray mb-2 pr-4">
-                snipset as selinux-enforceing.yaml - hosts: all user: root become_user: root become: yes serial: 1 tasks: - name: Edit SElinux-Config lineinfile: path: /etc/selinux/config regexp: &#39;^SELINUX=&#39; line: SELINUX=permissive - name: Reboot Host with Defaults reboot: - name: Wait for Host to be Available again wait_for_connection: 
+                snipset as selinux-enforceing.yaml - hosts: all user: root become_user: root become: yes serial: 1 tasks: - name: Edit SElinux-Config lineinfile: path: /etc/selinux/config regexp: &#39;^SELINUX=&#39; line: SELINUX=enforcing - name: Reboot Host with Defaults reboot: - name: Wait for Host to be Available again wait_for_connection: 
               </div>
             </div>
 

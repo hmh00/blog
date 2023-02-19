@@ -14,7 +14,7 @@
       <pubDate>Thu, 16 Feb 2023 07:57:22 +0100</pubDate>
       
       <guid>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</guid>
-      <description>snipset as selinux-enforceing.yaml - hosts: all user: root become_user: root become: yes serial: 1 tasks: - name: Edit SElinux-Config lineinfile: path: /etc/selinux/config regexp: &amp;#39;^SELINUX=&amp;#39; line: SELINUX=permissive - name: Reboot Host with Defaults reboot: - name: Wait for Host to be Available again wait_for_connection: </description>
+      <description>snipset as selinux-enforceing.yaml - hosts: all user: root become_user: root become: yes serial: 1 tasks: - name: Edit SElinux-Config lineinfile: path: /etc/selinux/config regexp: &amp;#39;^SELINUX=&amp;#39; line: SELINUX=enforcing - name: Reboot Host with Defaults reboot: - name: Wait for Host to be Available again wait_for_connection: </description>
     </item>
     
     <item>

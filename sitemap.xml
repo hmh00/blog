@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.mh.s3c-it.de/post/test/</loc>
+    <lastmod>2023-02-23T08:44:49+00:00</lastmod>
+  </url><url>
     <loc>https://blog.mh.s3c-it.de/tags/autobuild/</loc>
-    <lastmod>2023-02-23T06:24:38+00:00</lastmod>
+    <lastmod>2023-02-23T08:44:49+00:00</lastmod>
   </url><url>
     <loc>https://blog.mh.s3c-it.de/</loc>
-    <lastmod>2023-02-23T06:24:38+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mh.s3c-it.de/post/test/</loc>
-    <lastmod>2023-02-23T06:24:38+00:00</lastmod>
+    <lastmod>2023-02-23T08:44:49+00:00</lastmod>
   </url><url>
     <loc>https://blog.mh.s3c-it.de/post/</loc>
-    <lastmod>2023-02-23T06:24:38+00:00</lastmod>
+    <lastmod>2023-02-23T08:44:49+00:00</lastmod>
   </url><url>
     <loc>https://blog.mh.s3c-it.de/tags/</loc>
-    <lastmod>2023-02-23T06:24:38+00:00</lastmod>
+    <lastmod>2023-02-23T08:44:49+00:00</lastmod>
   </url><url>
     <loc>https://blog.mh.s3c-it.de/tags/test/</loc>
-    <lastmod>2023-02-23T06:24:38+00:00</lastmod>
+    <lastmod>2023-02-23T08:44:49+00:00</lastmod>
   </url><url>
     <loc>https://blog.mh.s3c-it.de/tags/ansible/</loc>
-    <lastmod>2023-02-23T06:24:38+00:00</lastmod>
+    <lastmod>2023-02-23T08:44:49+00:00</lastmod>
   </url><url>
     <loc>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</loc>
-    <lastmod>2023-02-23T06:24:38+00:00</lastmod>
+    <lastmod>2023-02-23T08:44:49+00:00</lastmod>
   </url><url>
     <loc>https://blog.mh.s3c-it.de/tags/devops/</loc>
-    <lastmod>2023-02-23T06:24:38+00:00</lastmod>
+    <lastmod>2023-02-23T08:44:49+00:00</lastmod>
   </url><url>
     <loc>https://blog.mh.s3c-it.de/about/</loc>
-    <lastmod>2023-02-23T06:24:38+00:00</lastmod>
+    <lastmod>2023-02-23T08:44:49+00:00</lastmod>
   </url><url>
     <loc>https://blog.mh.s3c-it.de/post/my-first-post/</loc>
-    <lastmod>2023-02-23T06:24:38+00:00</lastmod>
+    <lastmod>2023-02-23T08:44:49+00:00</lastmod>
   </url><url>
     <loc>https://blog.mh.s3c-it.de/categories/</loc>
   </url>

@@ -9,6 +9,15 @@
     <copyright>by Mario Hölscher</copyright>
     <lastBuildDate>Thu, 23 Feb 2023 07:22:24 +0100</lastBuildDate><atom:link href="https://blog.mh.s3c-it.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Readme</title>
+      <link>https://blog.mh.s3c-it.de/readme/</link>
+      <pubDate>Thu, 23 Feb 2023 11:30:42 +0100</pubDate>
+      
+      <guid>https://blog.mh.s3c-it.de/readme/</guid>
+      <description>Hobbys Electronical Engineering. IoT. Linux Kernel Programming Network Technology for example Develop own Routing Systems based on Linux/FreeBSD/OpenBSD IT-Security. Write Exploits. Build Frequency Jammer example Wifi. Automation on Administation and Konfiguration. </description>
+    </item>
+    
+    <item>
       <title>Auto TEST</title>
       <link>https://blog.mh.s3c-it.de/post/test/</link>
       <pubDate>Thu, 23 Feb 2023 07:22:24 +0100</pubDate>

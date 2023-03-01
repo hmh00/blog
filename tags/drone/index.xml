@@ -15,7 +15,7 @@
       
       <guid>https://blog.mh.s3c-it.de/post/install_and_configure_drone_ci/</guid>
       <description>Intro In this Post i want to Describe How to Install and Confiure drone-ci in a Kubernetes Cluster.
-What is Drone CI ? Drone CI is a tool for Continouis Integration with many Plugins
+What is Drone CI ? Drone CI is a tool for Continuous Integration with many Plugins
 docker hugo terraform ansible some notification and more. If you don&amp;rsquo;t want to setup a Complete CI/CD solution like GitLab and you have a git solution like gitea otherwise it&amp;rsquo;s possible to use a Public Repo GitHub for example.</description>
     </item>
     

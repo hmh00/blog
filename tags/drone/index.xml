@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devops on Blog of a Chaos Engineer</title>
-    <link>https://blog.mh.s3c-it.de/tags/devops/</link>
-    <description>Recent content in devops on Blog of a Chaos Engineer</description>
+    <title>drone on Blog of a Chaos Engineer</title>
+    <link>https://blog.mh.s3c-it.de/tags/drone/</link>
+    <description>Recent content in drone on Blog of a Chaos Engineer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>by Mario Hölscher</copyright>
-    <lastBuildDate>Tue, 28 Feb 2023 15:59:40 +0100</lastBuildDate><atom:link href="https://blog.mh.s3c-it.de/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Feb 2023 15:59:40 +0100</lastBuildDate><atom:link href="https://blog.mh.s3c-it.de/tags/drone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install and Configure Drone CI</title>
       <link>https://blog.mh.s3c-it.de/post/install_and_configure_drone_ci/</link>
@@ -17,15 +17,6 @@
       <description>Intro In this Post i want to Describe How to Install and Confiure drone-ci in a Kubernetes Cluster.
 What is Drone CI ? Drone CI is a tool for Continouis Integration with many Plugins
 docker hugo terraform ansible some notification and more. If you don&amp;rsquo;t want to setup a Complete CI/CD solution like GitLab and you have a git solution like gitea otherwise it&amp;rsquo;s possible to use a Public Repo GitHub for example.</description>
-    </item>
-    
-    <item>
-      <title>Ansible SElinux Enforceing</title>
-      <link>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</link>
-      <pubDate>Thu, 16 Feb 2023 07:57:22 +0100</pubDate>
-      
-      <guid>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</guid>
-      <description>snipset as selinux-enforceing.yaml - hosts: all user: root become_user: root become: yes serial: 1 tasks: - name: Edit SElinux-Config lineinfile: path: /etc/selinux/config regexp: &amp;#39;^SELINUX=&amp;#39; line: SELINUX=enforcing - name: Reboot Host with Defaults reboot: - name: Wait for Host to be Available again wait_for_connection: </description>
     </item>
     
   </channel>

@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>by Mario Hölscher</copyright>
-    <lastBuildDate>Thu, 23 Feb 2023 07:22:24 +0100</lastBuildDate><atom:link href="https://blog.mh.s3c-it.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Feb 2023 15:59:40 +0100</lastBuildDate><atom:link href="https://blog.mh.s3c-it.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cicd</title>
+      <link>https://blog.mh.s3c-it.de/tags/cicd/</link>
+      <pubDate>Tue, 28 Feb 2023 15:59:40 +0100</pubDate>
+      
+      <guid>https://blog.mh.s3c-it.de/tags/cicd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://blog.mh.s3c-it.de/tags/devops/</link>
+      <pubDate>Tue, 28 Feb 2023 15:59:40 +0100</pubDate>
+      
+      <guid>https://blog.mh.s3c-it.de/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drone</title>
+      <link>https://blog.mh.s3c-it.de/tags/drone/</link>
+      <pubDate>Tue, 28 Feb 2023 15:59:40 +0100</pubDate>
+      
+      <guid>https://blog.mh.s3c-it.de/tags/drone/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>autobuild</title>
       <link>https://blog.mh.s3c-it.de/tags/autobuild/</link>
@@ -32,15 +59,6 @@
       <pubDate>Thu, 16 Feb 2023 07:57:22 +0100</pubDate>
       
       <guid>https://blog.mh.s3c-it.de/tags/ansible/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>devops</title>
-      <link>https://blog.mh.s3c-it.de/tags/devops/</link>
-      <pubDate>Thu, 16 Feb 2023 07:57:22 +0100</pubDate>
-      
-      <guid>https://blog.mh.s3c-it.de/tags/devops/</guid>
       <description></description>
     </item>
     

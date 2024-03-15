@@ -6,6 +6,7 @@
     <description>Recent content in Categories on Blog of a Chaos Engineer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <copyright>by Mario Hölscher</copyright><atom:link href="https://blog.mh.s3c-it.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>by Mario Hölscher</copyright>
+    <atom:link href="https://blog.mh.s3c-it.de/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

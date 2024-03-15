@@ -7,67 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>by Mario Hölscher</copyright>
-    <lastBuildDate>Tue, 28 Feb 2023 15:59:40 +0100</lastBuildDate><atom:link href="https://blog.mh.s3c-it.de/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Install and Configure Drone CI</title>
-      <link>https://blog.mh.s3c-it.de/post/install_and_configure_drone_ci/</link>
-      <pubDate>Tue, 28 Feb 2023 15:59:40 +0100</pubDate>
-      
-      <guid>https://blog.mh.s3c-it.de/post/install_and_configure_drone_ci/</guid>
-      <description>Intro In this Post i want to Describe How to Install and Confiure drone-ci in a Kubernetes Cluster.
-What is Drone CI ? Drone CI is a tool for Continuous Integration with many Plugins
-docker hugo terraform ansible some notification and more. If you don&amp;rsquo;t want to setup a Complete CI/CD solution like GitLab and you have a git solution like gitea otherwise it&amp;rsquo;s possible to use a Public Repo GitHub for example.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 15 Mar 2024 15:47:22 +0000</lastBuildDate>
+    <atom:link href="https://blog.mh.s3c-it.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Readme</title>
       <link>https://blog.mh.s3c-it.de/readme/</link>
       <pubDate>Thu, 23 Feb 2023 11:30:42 +0100</pubDate>
-      
       <guid>https://blog.mh.s3c-it.de/readme/</guid>
-      <description>About this Guy Mario Hölscher aka. hmh00 is a German Computer Enthusiast. He currently works as a Cloud-Engineer, Developer and Architect. He spent his professional experience over 13 years as a Network and Security Operator, Linux Administator, System Engineer and Cloud-Professional.
-Skills Linux Administration. Container Development. Scrum. Continous Deployment and Delivery (CICD). IT-Security. Server Automation. Kubernetes. Ansible. Shell Scripting. Hobbys Wing-Tsun MMA Electronical Engineering </description>
+      <description>About this Guy Mario Hölscher aka. hmh00 is a German Computer Enthusiast. He currently works as a Cloud-Engineer, Developer and Architect. He spent his professional experience over 13 years as a Network and Security Operator, Linux Administator, System Engineer and Cloud-Professional.&#xA;Skills Linux Administration. Container Development. Scrum. Continous Deployment and Delivery (CICD). IT-Security. Server Automation. Kubernetes. Ansible. Shell Scripting. Hobbys Wing-Tsun MMA Electronical Engineering </description>
     </item>
-    
     <item>
       <title>Auto TEST</title>
       <link>https://blog.mh.s3c-it.de/post/test/</link>
       <pubDate>Thu, 23 Feb 2023 07:22:24 +0100</pubDate>
-      
       <guid>https://blog.mh.s3c-it.de/post/test/</guid>
       <description>This is the depoly Post Test </description>
     </item>
-    
     <item>
       <title>Ansible SElinux Enforceing</title>
       <link>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</link>
       <pubDate>Thu, 16 Feb 2023 07:57:22 +0100</pubDate>
-      
       <guid>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</guid>
       <description>snipset as selinux-enforceing.yaml - hosts: all user: root become_user: root become: yes serial: 1 tasks: - name: Edit SElinux-Config lineinfile: path: /etc/selinux/config regexp: &amp;#39;^SELINUX=&amp;#39; line: SELINUX=enforcing - name: Reboot Host with Defaults reboot: - name: Wait for Host to be Available again wait_for_connection: </description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://blog.mh.s3c-it.de/about/</link>
       <pubDate>Wed, 15 Feb 2023 12:39:47 +0100</pubDate>
-      
       <guid>https://blog.mh.s3c-it.de/about/</guid>
-      <description>Mario Hölscher is a Computer enthusiast. His Research about IT-Technology start at the 90s as Cell-Phone Preaker and Unix Newbie. At the 2ks he starts as little script kiddie using sub7 and other Trojan Kits. Today he&amp;rsquo;s working as Network Security and Linux Engineer.
-His main interests are:
-Electronical Engineering. IoT. Linux Kernel Programming Network Technology for example Develop own Routing Systems based on Linux/FreeBSD/OpenBSD IT-Security. Write Exploits. Build Frequency Jammer example Wifi.</description>
+      <description>Mario Hölscher is a Computer enthusiast. His Research about IT-Technology start at the 90s as Cell-Phone Preaker and Unix Newbie. At the 2ks he starts as little script kiddie using sub7 and other Trojan Kits. Today he&amp;rsquo;s working as Network Security and Linux Engineer.&#xA;His main interests are:&#xA;Electronical Engineering. IoT. Linux Kernel Programming Network Technology for example Develop own Routing Systems based on Linux/FreeBSD/OpenBSD IT-Security. Write Exploits. Build Frequency Jammer example Wifi.</description>
     </item>
-    
     <item>
       <title>My First Post</title>
       <link>https://blog.mh.s3c-it.de/post/my-first-post/</link>
       <pubDate>Wed, 15 Feb 2023 07:51:24 +0100</pubDate>
-      
       <guid>https://blog.mh.s3c-it.de/post/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!
-H1 H2 s = &amp;#34;Python syntax highlighting&amp;#34; print s </description>
+      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!&#xA;H1 H2 s = &amp;#34;Python syntax highlighting&amp;#34; print s </description>
     </item>
-    
   </channel>
 </rss>

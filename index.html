@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de-de">
 <head>
-	<meta name="generator" content="Hugo 0.123.8">
+	<meta name="generator" content="Hugo 0.140.2">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <script type="application/javascript" src='https://blog.mh.s3c-it.de/js/theme-mode.js'></script>
@@ -155,7 +155,7 @@
                 </path>
               </svg>
               Posts
-              <span class="Counter">4</span>
+              <span class="Counter">5</span>
             </a>
           </nav>
           <div class="profile-color-modes js-promo-color-modes-banner-profile isInitialToggle">
@@ -442,7 +442,7 @@
         </path>
       </svg>
       Posts
-      <span class="Counter ">4</span>
+      <span class="Counter ">5</span>
     </a>
   </nav>
 </div>
@@ -524,7 +524,7 @@
 
 
                 <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                  This is the depoly Post Test 
+                  <h1 id="this-is-the-depoly-post-test">This is the depoly Post Test</h1>
                 </div>
 
                 <p class="mb-0 f6 text-gray">
@@ -572,7 +572,7 @@
 
 
                 <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                  This is the depoly Post Test 
+                  <h1 id="this-is-the-depoly-post-test">This is the depoly Post Test</h1>
                 </div>
 
                 <p class="mb-0 f6 text-gray">
@@ -620,7 +620,25 @@
 
 
                 <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                  snipset as selinux-enforceing.yaml - hosts: all user: root become_user: root become: yes serial: 1 tasks: - name: Edit SElinux-Config lineinfile: path: /etc/selinux/config regexp: &#39;^SELINUX=&#39; line: SELINUX=enforcing - name: Reboot Host with Defaults reboot: - name: Wait for Host to be Available again wait_for_connection: 
+                  <h2 id="snipset-as-selinux-enforceingyaml">snipset as selinux-enforceing.yaml</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">- <span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l">all</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">user</span><span class="p">:</span><span class="w"> </span><span class="l">root</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">become_user</span><span class="p">:</span><span class="w"> </span><span class="l">root</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">become</span><span class="p">:</span><span class="w"> </span><span class="kc">yes</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">serial</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">tasks</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Edit SElinux-Config</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">lineinfile</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="l">/etc/selinux/config</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">regexp</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;^SELINUX=&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">line</span><span class="p">:</span><span class="w"> </span><span class="l">SELINUX=enforcing</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Reboot Host with Defaults</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">reboot</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Wait for Host to be Available again</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">wait_for_connection</span><span class="p">:</span><span class="w">
+</span></span></span></code></pre></div>
                 </div>
 
                 <p class="mb-0 f6 text-gray">
@@ -668,9 +686,14 @@
 
 
                 <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                  Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!
-H1 H2 s = &#34;Python syntax highlighting&#34; print s 
+                  <h2 id="introduction">Introduction</h2>
+<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
+<p>Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">s</span> <span class="o">=</span> <span class="s2">&#34;Python syntax highlighting&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span> <span class="n">s</span>
+</span></span></code></pre></div>
                 </div>
 
                 <p class="mb-0 f6 text-gray">
@@ -694,6 +717,44 @@ H1 H2 s = &#34;Python syntax highlighting&#34; print s
                     
                   </a>
                   
+                  
+                </p>
+              </div>
+            </div>
+          </li>
+          
+          <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
+            <div
+              class="Box pinned-item-list-item d-flex p-3 width-full js-pinned-item-list-item public source reorderable sortable-button-item">
+              <div class="pinned-item-list-item-content">
+                <div class="d-flex width-full flex-items-center position-relative">
+                  <svg class="octicon octicon-repo mr-2 text-gray flex-shrink-0" viewBox="0 0 16 16" version="1.1"
+                    width="16" height="16">
+                    <path fill-rule="evenodd"
+                      d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z">
+                    </path>
+                  </svg>
+                  <a class="text-bold flex-auto min-width-0" href="https://blog.mh.s3c-it.de/post/talos/">
+                    <span class="repo" title=""></span>
+                  </a>
+                </div>
+
+
+                <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
+                  <h1 id="talos-cluster-aufbau-schritt-für-schritt-anleitung">Talos Cluster Aufbau: Schritt-für-Schritt Anleitung</h1>
+<p>Ein Talos-Cluster ist ideal für eine moderne, unveränderliche Infrastruktur. Da Talos Linux kein SSH oder eine klassische Shell besitzt, erfolgt die gesamte Verwaltung über die API und YAML-Konfigurationen.</p>
+<hr>
+<h2 id="1-voraussetzungen">1. Voraussetzungen</h2>
+<ul>
+<li><strong>talosctl</strong>: Das CLI-Tool auf deinem lokalen Rechner (Linux).</li>
+<li><strong>Endpoints</strong>: Die IP-Adressen deiner Nodes (mindestens ein Control-Plane Node).</li>
+<li><strong>Netzwerk</strong>: Ausgehende Internetverbindung für die Nodes zum Laden der Images.</li>
+</ul>
+<h2 id="2-cli-tools-installieren">2. CLI-Tools installieren</h2>
+<p>Installiere das Talos-Kontrollprogramm auf deinem lokalen Rechner:</p>
+                </div>
+
+                <p class="mb-0 f6 text-gray">
                   
                 </p>
               </div>
@@ -728,6 +789,12 @@ H1 H2 s = &#34;Python syntax highlighting&#34; print s
   "title": "My%20First%20Post",
   "link": "https://blog.mh.s3c-it.de/post/my-first-post/",
   "publishDate": "2023-02-15%2007:51:24"
+},
+
+{
+  "title": "",
+  "link": "https://blog.mh.s3c-it.de/post/talos/",
+  "publishDate": "0001-01-01%2000:00:00"
 }
 ]'>
       <div class="js-yearly-contributions">

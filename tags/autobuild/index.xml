@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autobuild on Blog of a Chaos Engineer</title>
+    <link>https://blog.mh.s3c-it.de/tags/autobuild/</link>
+    <description>Recent content in Autobuild on Blog of a Chaos Engineer</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <copyright>by Mario Hölscher</copyright>
+    <lastBuildDate>Tue, 17 Feb 2026 14:05:59 +0000</lastBuildDate>
+    <atom:link href="https://blog.mh.s3c-it.de/tags/autobuild/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Talos</title>
+      <link>https://blog.mh.s3c-it.de/post/talos/</link>
+      <pubDate>Sun, 15 Feb 2026 07:22:24 +0100</pubDate>
+      <guid>https://blog.mh.s3c-it.de/post/talos/</guid>
+      <description>&lt;h1 id=&#34;talos-cluster-aufbau-schritt-für-schritt-anleitung&#34;&gt;Talos Cluster Aufbau: Schritt-für-Schritt Anleitung&lt;/h1&gt;&#xA;&lt;p&gt;Ein Talos-Cluster ist ideal für eine moderne, unveränderliche Infrastruktur. Da Talos Linux kein SSH oder eine klassische Shell besitzt, erfolgt die gesamte Verwaltung über die API und YAML-Konfigurationen.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-voraussetzungen&#34;&gt;1. Voraussetzungen&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;talosctl&lt;/strong&gt;: Das CLI-Tool auf deinem lokalen Rechner (Linux).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Endpoints&lt;/strong&gt;: Die IP-Adressen deiner Nodes (mindestens ein Control-Plane Node).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Netzwerk&lt;/strong&gt;: Ausgehende Internetverbindung für die Nodes zum Laden der Images.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;2-cli-tools-installieren&#34;&gt;2. CLI-Tools installieren&lt;/h2&gt;&#xA;&lt;p&gt;Installiere das Talos-Kontrollprogramm auf deinem lokalen Rechner:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Auto TEST</title>
+      <link>https://blog.mh.s3c-it.de/post/newcontent/</link>
+      <pubDate>Fri, 15 Mar 2024 07:22:24 +0100</pubDate>
+      <guid>https://blog.mh.s3c-it.de/post/newcontent/</guid>
+      <description>&lt;h1 id=&#34;this-is-the-depoly-post-test&#34;&gt;This is the depoly Post Test&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Auto TEST</title>
+      <link>https://blog.mh.s3c-it.de/post/test/</link>
+      <pubDate>Thu, 23 Feb 2023 07:22:24 +0100</pubDate>
+      <guid>https://blog.mh.s3c-it.de/post/test/</guid>
+      <description>&lt;h1 id=&#34;this-is-the-depoly-post-test&#34;&gt;This is the depoly Post Test&lt;/h1&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Blog of a Chaos Engineer</title>
+    <link>https://blog.mh.s3c-it.de/tags/</link>
+    <description>Recent content in Tags on Blog of a Chaos Engineer</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <copyright>by Mario Hölscher</copyright>
+    <lastBuildDate>Tue, 17 Feb 2026 14:05:59 +0000</lastBuildDate>
+    <atom:link href="https://blog.mh.s3c-it.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autobuild</title>
+      <link>https://blog.mh.s3c-it.de/tags/autobuild/</link>
+      <pubDate>Sun, 15 Feb 2026 07:22:24 +0100</pubDate>
+      <guid>https://blog.mh.s3c-it.de/tags/autobuild/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>https://blog.mh.s3c-it.de/tags/test/</link>
+      <pubDate>Sun, 15 Feb 2026 07:22:24 +0100</pubDate>
+      <guid>https://blog.mh.s3c-it.de/tags/test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ansible</title>
+      <link>https://blog.mh.s3c-it.de/tags/ansible/</link>
+      <pubDate>Thu, 16 Feb 2023 07:57:22 +0100</pubDate>
+      <guid>https://blog.mh.s3c-it.de/tags/ansible/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devops</title>
+      <link>https://blog.mh.s3c-it.de/tags/devops/</link>
+      <pubDate>Thu, 16 Feb 2023 07:57:22 +0100</pubDate>
+      <guid>https://blog.mh.s3c-it.de/tags/devops/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

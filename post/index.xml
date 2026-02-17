@@ -7,14 +7,14 @@
     <generator>Hugo</generator>
     <language>de-de</language>
     <copyright>by Mario Hölscher</copyright>
-    <lastBuildDate>Tue, 17 Feb 2026 21:47:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 21:52:40 +0000</lastBuildDate>
     <atom:link href="https://blog.mh.s3c-it.de/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keycloak Docker Install</title>
       <link>https://blog.mh.s3c-it.de/post/keycloak-install-docker/</link>
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://blog.mh.s3c-it.de/post/keycloak-install-docker/</guid>
-      <description>&lt;h2 id=&#34;keycloaak-installieren-dein-sicherer-hafen-für-benutzerverwaltung--schritt-für-schritt&#34;&gt;Keycloaak installieren: Dein sicherer Hafen für Benutzerverwaltung – Schritt für Schritt&lt;/h2&gt;&#xA;&lt;p&gt;Du bist es leid, dich durch ein Labyrinth aus Passwörtern zu schlängeln? Dein System sieht aus, als hätte ein kleiner T-Rex dort ein Picknick veranstaltet? Dann ist Keycloaak genau das Richtige für dich. Diese Open-Source-Lösung ist wie ein gut organisiertes Büro für deine Benutzerverwaltung – sicher, effizient und leicht zu handhaben. In diesem Guide zeigen wir dir, wie du Keycloaak mit Docker einrichtest, damit du dich auf das Wesentliche konzentrieren kannst.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;keycloak-installieren-dein-sicherer-hafen-für-benutzerverwaltung--schritt-für-schritt&#34;&gt;Keycloak installieren: Dein sicherer Hafen für Benutzerverwaltung – Schritt für Schritt&lt;/h2&gt;&#xA;&lt;p&gt;Du bist es leid, dich durch ein Labyrinth aus Passwörtern zu schlängeln? Dein System sieht aus, als hätte ein kleiner T-Rex dort ein Picknick veranstaltet? Dann ist Keycloak genau das Richtige für dich. Diese Open-Source-Lösung ist wie ein gut organisiertes Büro für deine Benutzerverwaltung – sicher, effizient und leicht zu handhaben. In diesem Guide zeigen wir dir, wie du Keycloak mit Docker einrichtest, damit du dich auf das Wesentliche konzentrieren kannst.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Talos</title>

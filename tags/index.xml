@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>de-de</language>
     <copyright>by Mario Hölscher</copyright>
-    <lastBuildDate>Tue, 17 Feb 2026 14:05:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 21:43:48 +0000</lastBuildDate>
     <atom:link href="https://blog.mh.s3c-it.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://blog.mh.s3c-it.de/tags/ai/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.mh.s3c-it.de/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keycloak</title>
+      <link>https://blog.mh.s3c-it.de/tags/keycloak/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.mh.s3c-it.de/tags/keycloak/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Autobuild</title>
       <link>https://blog.mh.s3c-it.de/tags/autobuild/</link>

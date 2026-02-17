@@ -7,10 +7,10 @@
     <generator>Hugo</generator>
     <language>de-de</language>
     <copyright>by Mario Hölscher</copyright>
-    <lastBuildDate>Tue, 17 Feb 2026 21:43:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 21:47:47 +0000</lastBuildDate>
     <atom:link href="https://blog.mh.s3c-it.de/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Talos</title>
+      <title>Keycloak Docker Install</title>
       <link>https://blog.mh.s3c-it.de/post/keycloak-install-docker/</link>
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://blog.mh.s3c-it.de/post/keycloak-install-docker/</guid>

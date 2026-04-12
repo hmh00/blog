@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kubernetes on Blog of a Chaos Engineer</title><link>https://blog.mh.s3c-it.de/tags/kubernetes/</link><description>Recent content in Kubernetes on Blog of a Chaos Engineer</description><generator>Hugo</generator><language>de-de</language><copyright>by Mario Hölscher</copyright><lastBuildDate>Sun, 12 Apr 2026 10:06:47 +0000</lastBuildDate><atom:link href="https://blog.mh.s3c-it.de/tags/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Talos Linux Kubernetes Cluster Aufbau: Eine Schritt-für-Schritt Anleitung</title><link>https://blog.mh.s3c-it.de/post/talos-linux-kubernetes-cluster-aufbau/</link><pubDate>Sun, 15 Feb 2026 07:22:24 +0100</pubDate><guid>https://blog.mh.s3c-it.de/post/talos-linux-kubernetes-cluster-aufbau/</guid><description>&lt;h1 id="talos-cluster-aufbau-schritt-für-schritt-anleitung">Talos Cluster Aufbau: Schritt-für-Schritt Anleitung&lt;/h1>
+&lt;p>Ein Talos-Cluster ist ideal für eine moderne, unveränderliche Infrastruktur. Da Talos Linux kein SSH oder eine klassische Shell besitzt, erfolgt die gesamte Verwaltung über die API und YAML-Konfigurationen. Dies bietet erhebliche Sicherheitsvorteile.&lt;/p>
+&lt;hr>
+&lt;h2 id="1-voraussetzungen-für-den-talos-cluster">1. Voraussetzungen für den Talos-Cluster&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>talosctl&lt;/strong>: Das CLI-Tool auf deinem lokalen Rechner (Linux/macOS/Windows), mit dem der Cluster gesteuert wird.&lt;/li>
+&lt;li>&lt;strong>Endpoints&lt;/strong>: Die festen IP-Adressen deiner Nodes (mindestens ein Control-Plane Node für den Einstieg).&lt;/li>
+&lt;li>&lt;strong>Netzwerk&lt;/strong>: Eine ausgehende Internetverbindung für die Nodes zum Laden der benötigten Container-Images.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-talos-cli-tools-installieren">2. Talos CLI-Tools installieren&lt;/h2>
+&lt;p>Installiere das Talos-Kontrollprogramm (&lt;code>talosctl&lt;/code>) auf deinem lokalen Rechner, um mit den Nodes zu kommunizieren:&lt;/p></description></item></channel></rss>

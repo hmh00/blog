@@ -1,34 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Test on Blog of a Chaos Engineer</title>
-    <link>https://blog.mh.s3c-it.de/tags/test/</link>
-    <description>Recent content in Test on Blog of a Chaos Engineer</description>
-    <generator>Hugo</generator>
-    <language>de-de</language>
-    <copyright>by Mario Hölscher</copyright>
-    <lastBuildDate>Tue, 17 Feb 2026 14:05:59 +0000</lastBuildDate>
-    <atom:link href="https://blog.mh.s3c-it.de/tags/test/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Talos</title>
-      <link>https://blog.mh.s3c-it.de/post/talos/</link>
-      <pubDate>Sun, 15 Feb 2026 07:22:24 +0100</pubDate>
-      <guid>https://blog.mh.s3c-it.de/post/talos/</guid>
-      <description>&lt;h1 id=&#34;talos-cluster-aufbau-schritt-für-schritt-anleitung&#34;&gt;Talos Cluster Aufbau: Schritt-für-Schritt Anleitung&lt;/h1&gt;&#xA;&lt;p&gt;Ein Talos-Cluster ist ideal für eine moderne, unveränderliche Infrastruktur. Da Talos Linux kein SSH oder eine klassische Shell besitzt, erfolgt die gesamte Verwaltung über die API und YAML-Konfigurationen.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-voraussetzungen&#34;&gt;1. Voraussetzungen&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;talosctl&lt;/strong&gt;: Das CLI-Tool auf deinem lokalen Rechner (Linux).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Endpoints&lt;/strong&gt;: Die IP-Adressen deiner Nodes (mindestens ein Control-Plane Node).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Netzwerk&lt;/strong&gt;: Ausgehende Internetverbindung für die Nodes zum Laden der Images.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;2-cli-tools-installieren&#34;&gt;2. CLI-Tools installieren&lt;/h2&gt;&#xA;&lt;p&gt;Installiere das Talos-Kontrollprogramm auf deinem lokalen Rechner:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Auto TEST</title>
-      <link>https://blog.mh.s3c-it.de/post/newcontent/</link>
-      <pubDate>Fri, 15 Mar 2024 07:22:24 +0100</pubDate>
-      <guid>https://blog.mh.s3c-it.de/post/newcontent/</guid>
-      <description>&lt;h1 id=&#34;this-is-the-depoly-post-test&#34;&gt;This is the depoly Post Test&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Auto TEST</title>
-      <link>https://blog.mh.s3c-it.de/post/test/</link>
-      <pubDate>Thu, 23 Feb 2023 07:22:24 +0100</pubDate>
-      <guid>https://blog.mh.s3c-it.de/post/test/</guid>
-      <description>&lt;h1 id=&#34;this-is-the-depoly-post-test&#34;&gt;This is the depoly Post Test&lt;/h1&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test on Blog of a Chaos Engineer</title><link>https://blog.mh.s3c-it.de/tags/test/</link><description>Recent content in Test on Blog of a Chaos Engineer</description><generator>Hugo</generator><language>de-de</language><copyright>by Mario Hölscher</copyright><lastBuildDate>Sun, 12 Apr 2026 09:32:13 +0000</lastBuildDate><atom:link href="https://blog.mh.s3c-it.de/tags/test/index.xml" rel="self" type="application/rss+xml"/><item><title>Talos</title><link>https://blog.mh.s3c-it.de/post/talos/</link><pubDate>Sun, 15 Feb 2026 07:22:24 +0100</pubDate><guid>https://blog.mh.s3c-it.de/post/talos/</guid><description>&lt;h1 id="talos-cluster-aufbau-schritt-für-schritt-anleitung">Talos Cluster Aufbau: Schritt-für-Schritt Anleitung&lt;/h1>
+&lt;p>Ein Talos-Cluster ist ideal für eine moderne, unveränderliche Infrastruktur. Da Talos Linux kein SSH oder eine klassische Shell besitzt, erfolgt die gesamte Verwaltung über die API und YAML-Konfigurationen.&lt;/p>
+&lt;hr>
+&lt;h2 id="1-voraussetzungen">1. Voraussetzungen&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>talosctl&lt;/strong>: Das CLI-Tool auf deinem lokalen Rechner (Linux).&lt;/li>
+&lt;li>&lt;strong>Endpoints&lt;/strong>: Die IP-Adressen deiner Nodes (mindestens ein Control-Plane Node).&lt;/li>
+&lt;li>&lt;strong>Netzwerk&lt;/strong>: Ausgehende Internetverbindung für die Nodes zum Laden der Images.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-cli-tools-installieren">2. CLI-Tools installieren&lt;/h2>
+&lt;p>Installiere das Talos-Kontrollprogramm auf deinem lokalen Rechner:&lt;/p></description></item><item><title>Auto TEST</title><link>https://blog.mh.s3c-it.de/post/newcontent/</link><pubDate>Fri, 15 Mar 2024 07:22:24 +0100</pubDate><guid>https://blog.mh.s3c-it.de/post/newcontent/</guid><description>&lt;h1 id="this-is-the-depoly-post-test">This is the depoly Post Test&lt;/h1></description></item><item><title>Auto TEST</title><link>https://blog.mh.s3c-it.de/post/test/</link><pubDate>Thu, 23 Feb 2023 07:22:24 +0100</pubDate><guid>https://blog.mh.s3c-it.de/post/test/</guid><description>&lt;h1 id="this-is-the-depoly-post-test">This is the depoly Post Test&lt;/h1></description></item></channel></rss>

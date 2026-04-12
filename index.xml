@@ -1,69 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog of a Chaos Engineer</title>
-    <link>https://blog.mh.s3c-it.de/</link>
-    <description>Recent content on Blog of a Chaos Engineer</description>
-    <generator>Hugo</generator>
-    <language>de-de</language>
-    <copyright>by Mario Hölscher</copyright>
-    <lastBuildDate>Tue, 17 Feb 2026 21:52:40 +0000</lastBuildDate>
-    <atom:link href="https://blog.mh.s3c-it.de/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Keycloak Docker Install</title>
-      <link>https://blog.mh.s3c-it.de/post/keycloak-install-docker/</link>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://blog.mh.s3c-it.de/post/keycloak-install-docker/</guid>
-      <description>&lt;h2 id=&#34;keycloak-installieren-dein-sicherer-hafen-für-benutzerverwaltung--schritt-für-schritt&#34;&gt;Keycloak installieren: Dein sicherer Hafen für Benutzerverwaltung – Schritt für Schritt&lt;/h2&gt;&#xA;&lt;p&gt;Du bist es leid, dich durch ein Labyrinth aus Passwörtern zu schlängeln? Dein System sieht aus, als hätte ein kleiner T-Rex dort ein Picknick veranstaltet? Dann ist Keycloak genau das Richtige für dich. Diese Open-Source-Lösung ist wie ein gut organisiertes Büro für deine Benutzerverwaltung – sicher, effizient und leicht zu handhaben. In diesem Guide zeigen wir dir, wie du Keycloak mit Docker einrichtest, damit du dich auf das Wesentliche konzentrieren kannst.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Talos</title>
-      <link>https://blog.mh.s3c-it.de/post/talos/</link>
-      <pubDate>Sun, 15 Feb 2026 07:22:24 +0100</pubDate>
-      <guid>https://blog.mh.s3c-it.de/post/talos/</guid>
-      <description>&lt;h1 id=&#34;talos-cluster-aufbau-schritt-für-schritt-anleitung&#34;&gt;Talos Cluster Aufbau: Schritt-für-Schritt Anleitung&lt;/h1&gt;&#xA;&lt;p&gt;Ein Talos-Cluster ist ideal für eine moderne, unveränderliche Infrastruktur. Da Talos Linux kein SSH oder eine klassische Shell besitzt, erfolgt die gesamte Verwaltung über die API und YAML-Konfigurationen.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-voraussetzungen&#34;&gt;1. Voraussetzungen&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;talosctl&lt;/strong&gt;: Das CLI-Tool auf deinem lokalen Rechner (Linux).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Endpoints&lt;/strong&gt;: Die IP-Adressen deiner Nodes (mindestens ein Control-Plane Node).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Netzwerk&lt;/strong&gt;: Ausgehende Internetverbindung für die Nodes zum Laden der Images.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;2-cli-tools-installieren&#34;&gt;2. CLI-Tools installieren&lt;/h2&gt;&#xA;&lt;p&gt;Installiere das Talos-Kontrollprogramm auf deinem lokalen Rechner:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Auto TEST</title>
-      <link>https://blog.mh.s3c-it.de/post/newcontent/</link>
-      <pubDate>Fri, 15 Mar 2024 07:22:24 +0100</pubDate>
-      <guid>https://blog.mh.s3c-it.de/post/newcontent/</guid>
-      <description>&lt;h1 id=&#34;this-is-the-depoly-post-test&#34;&gt;This is the depoly Post Test&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Readme</title>
-      <link>https://blog.mh.s3c-it.de/readme/</link>
-      <pubDate>Thu, 23 Feb 2023 11:30:42 +0100</pubDate>
-      <guid>https://blog.mh.s3c-it.de/readme/</guid>
-      <description>&lt;h1 id=&#34;about-this-guy&#34;&gt;About this Guy&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mario Hölscher&lt;/strong&gt; aka. &lt;strong&gt;hmh00&lt;/strong&gt; is a German Computer Enthusiast. He currently works as a Cloud-Engineer, Developer and Architect. He spent his professional experience over 13 years as a Network and Security Operator, Linux Administator, System Engineer and Cloud-Professional.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Linux Administration.&lt;/li&gt;&#xA;&lt;li&gt;Container Development.&lt;/li&gt;&#xA;&lt;li&gt;Scrum.&lt;/li&gt;&#xA;&lt;li&gt;Continous Deployment and Delivery (CICD).&lt;/li&gt;&#xA;&lt;li&gt;IT-Security.&lt;/li&gt;&#xA;&lt;li&gt;Server Automation.&lt;/li&gt;&#xA;&lt;li&gt;Kubernetes.&lt;/li&gt;&#xA;&lt;li&gt;Ansible.&lt;/li&gt;&#xA;&lt;li&gt;Shell Scripting.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;hobbys&#34;&gt;Hobbys&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Wing-Tsun&lt;/li&gt;&#xA;&lt;li&gt;MMA&lt;/li&gt;&#xA;&lt;li&gt;Electronical Engineering&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Auto TEST</title>
-      <link>https://blog.mh.s3c-it.de/post/test/</link>
-      <pubDate>Thu, 23 Feb 2023 07:22:24 +0100</pubDate>
-      <guid>https://blog.mh.s3c-it.de/post/test/</guid>
-      <description>&lt;h1 id=&#34;this-is-the-depoly-post-test&#34;&gt;This is the depoly Post Test&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Ansible SElinux Enforceing</title>
-      <link>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</link>
-      <pubDate>Thu, 16 Feb 2023 07:57:22 +0100</pubDate>
-      <guid>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</guid>
-      <description>&lt;h2 id=&#34;snipset-as-selinux-enforceingyaml&#34;&gt;snipset as selinux-enforceing.yaml&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- &lt;span class=&#34;nt&#34;&gt;hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;all&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;user&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;root&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;become_user&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;root&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;become&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;yes&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;serial&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;tasks&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Edit SElinux-Config&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;lineinfile&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;/etc/selinux/config&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;regexp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;^SELINUX=&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;line&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;SELINUX=enforcing&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Reboot Host with Defaults&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;reboot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Wait for Host to be Available again&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;wait_for_connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://blog.mh.s3c-it.de/about/</link>
-      <pubDate>Wed, 15 Feb 2023 12:39:47 +0100</pubDate>
-      <guid>https://blog.mh.s3c-it.de/about/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Mario Hölscher&lt;/strong&gt; is a Computer enthusiast. His Research about IT-Technology start at the 90s as Cell-Phone Preaker and Unix Newbie.&#xA;At the 2ks he starts as little script kiddie using sub7 and other Trojan Kits. Today he&amp;rsquo;s working as Network Security and Linux Engineer.&lt;/p&gt;&#xA;&lt;p&gt;His main interests are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Electronical Engineering.&lt;/li&gt;&#xA;&lt;li&gt;IoT.&lt;/li&gt;&#xA;&lt;li&gt;Linux Kernel Programming&lt;/li&gt;&#xA;&lt;li&gt;Network Technology for example Develop own Routing Systems based on Linux/FreeBSD/OpenBSD&lt;/li&gt;&#xA;&lt;li&gt;IT-Security.&lt;/li&gt;&#xA;&lt;li&gt;Write Exploits.&lt;/li&gt;&#xA;&lt;li&gt;Build Frequency Jammer example Wifi.&lt;/li&gt;&#xA;&lt;li&gt;Automation on Administation and Konfiguration.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://blog.mh.s3c-it.de/post/my-first-post/</link>
-      <pubDate>Wed, 15 Feb 2023 07:51:24 +0100</pubDate>
-      <guid>https://blog.mh.s3c-it.de/post/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;&#xA;&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Python syntax highlighting&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog of a Chaos Engineer</title><link>https://blog.mh.s3c-it.de/</link><description>Recent content on Blog of a Chaos Engineer</description><generator>Hugo</generator><language>de-de</language><copyright>by Mario Hölscher</copyright><lastBuildDate>Sun, 12 Apr 2026 09:32:13 +0000</lastBuildDate><atom:link href="https://blog.mh.s3c-it.de/index.xml" rel="self" type="application/rss+xml"/><item><title>Keycloak Docker Install</title><link>https://blog.mh.s3c-it.de/post/keycloak-install-docker/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.mh.s3c-it.de/post/keycloak-install-docker/</guid><description>&lt;h2 id="keycloak-installieren-dein-sicherer-hafen-für-benutzerverwaltung--schritt-für-schritt">Keycloak installieren: Dein sicherer Hafen für Benutzerverwaltung – Schritt für Schritt&lt;/h2>
+&lt;p>Du bist es leid, dich durch ein Labyrinth aus Passwörtern zu schlängeln? Dein System sieht aus, als hätte ein kleiner T-Rex dort ein Picknick veranstaltet? Dann ist Keycloak genau das Richtige für dich. Diese Open-Source-Lösung ist wie ein gut organisiertes Büro für deine Benutzerverwaltung – sicher, effizient und leicht zu handhaben. In diesem Guide zeigen wir dir, wie du Keycloak mit Docker einrichtest, damit du dich auf das Wesentliche konzentrieren kannst.&lt;/p></description></item><item><title>Talos</title><link>https://blog.mh.s3c-it.de/post/talos/</link><pubDate>Sun, 15 Feb 2026 07:22:24 +0100</pubDate><guid>https://blog.mh.s3c-it.de/post/talos/</guid><description>&lt;h1 id="talos-cluster-aufbau-schritt-für-schritt-anleitung">Talos Cluster Aufbau: Schritt-für-Schritt Anleitung&lt;/h1>
+&lt;p>Ein Talos-Cluster ist ideal für eine moderne, unveränderliche Infrastruktur. Da Talos Linux kein SSH oder eine klassische Shell besitzt, erfolgt die gesamte Verwaltung über die API und YAML-Konfigurationen.&lt;/p>
+&lt;hr>
+&lt;h2 id="1-voraussetzungen">1. Voraussetzungen&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>talosctl&lt;/strong>: Das CLI-Tool auf deinem lokalen Rechner (Linux).&lt;/li>
+&lt;li>&lt;strong>Endpoints&lt;/strong>: Die IP-Adressen deiner Nodes (mindestens ein Control-Plane Node).&lt;/li>
+&lt;li>&lt;strong>Netzwerk&lt;/strong>: Ausgehende Internetverbindung für die Nodes zum Laden der Images.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-cli-tools-installieren">2. CLI-Tools installieren&lt;/h2>
+&lt;p>Installiere das Talos-Kontrollprogramm auf deinem lokalen Rechner:&lt;/p></description></item><item><title>Auto TEST</title><link>https://blog.mh.s3c-it.de/post/newcontent/</link><pubDate>Fri, 15 Mar 2024 07:22:24 +0100</pubDate><guid>https://blog.mh.s3c-it.de/post/newcontent/</guid><description>&lt;h1 id="this-is-the-depoly-post-test">This is the depoly Post Test&lt;/h1></description></item><item><title>Readme</title><link>https://blog.mh.s3c-it.de/readme/</link><pubDate>Thu, 23 Feb 2023 11:30:42 +0100</pubDate><guid>https://blog.mh.s3c-it.de/readme/</guid><description>&lt;h1 id="about-this-guy">About this Guy&lt;/h1>
+&lt;p>&lt;strong>Mario Hölscher&lt;/strong> aka. &lt;strong>hmh00&lt;/strong> is a German Computer Enthusiast. He currently works as a Cloud-Engineer, Developer and Architect. He spent his professional experience over 13 years as a Network and Security Operator, Linux Administator, System Engineer and Cloud-Professional.&lt;/p>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;ul>
+&lt;li>Linux Administration.&lt;/li>
+&lt;li>Container Development.&lt;/li>
+&lt;li>Scrum.&lt;/li>
+&lt;li>Continous Deployment and Delivery (CICD).&lt;/li>
+&lt;li>IT-Security.&lt;/li>
+&lt;li>Server Automation.&lt;/li>
+&lt;li>Kubernetes.&lt;/li>
+&lt;li>Ansible.&lt;/li>
+&lt;li>Shell Scripting.&lt;/li>
+&lt;/ul>
+&lt;h2 id="hobbys">Hobbys&lt;/h2>
+&lt;ul>
+&lt;li>Wing-Tsun&lt;/li>
+&lt;li>MMA&lt;/li>
+&lt;li>Electronical Engineering&lt;/li>
+&lt;/ul></description></item><item><title>Auto TEST</title><link>https://blog.mh.s3c-it.de/post/test/</link><pubDate>Thu, 23 Feb 2023 07:22:24 +0100</pubDate><guid>https://blog.mh.s3c-it.de/post/test/</guid><description>&lt;h1 id="this-is-the-depoly-post-test">This is the depoly Post Test&lt;/h1></description></item><item><title>Ansible SElinux Enforceing</title><link>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</link><pubDate>Thu, 16 Feb 2023 07:57:22 +0100</pubDate><guid>https://blog.mh.s3c-it.de/post/ansible-selinux-enforceing/</guid><description>&lt;h2 id="snipset-as-selinux-enforceingyaml">snipset as selinux-enforceing.yaml&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">- &lt;span class="nt">hosts&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">all&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">user&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">root&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">become_user&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">root&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">become&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">yes&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">serial&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">tasks&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Edit SElinux-Config&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">lineinfile&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">path&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">/etc/selinux/config&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">regexp&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;^SELINUX=&amp;#39;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">line&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">SELINUX=enforcing&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> 
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Reboot Host with Defaults&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">reboot&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> 
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Wait for Host to be Available again&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">wait_for_connection&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>About</title><link>https://blog.mh.s3c-it.de/about/</link><pubDate>Wed, 15 Feb 2023 12:39:47 +0100</pubDate><guid>https://blog.mh.s3c-it.de/about/</guid><description>&lt;p>&lt;strong>Mario Hölscher&lt;/strong> is a Computer enthusiast. His Research about IT-Technology start at the 90s as Cell-Phone Preaker and Unix Newbie.
+At the 2ks he starts as little script kiddie using sub7 and other Trojan Kits. Today he&amp;rsquo;s working as Network Security and Linux Engineer.&lt;/p>
+&lt;p>His main interests are:&lt;/p>
+&lt;ul>
+&lt;li>Electronical Engineering.&lt;/li>
+&lt;li>IoT.&lt;/li>
+&lt;li>Linux Kernel Programming&lt;/li>
+&lt;li>Network Technology for example Develop own Routing Systems based on Linux/FreeBSD/OpenBSD&lt;/li>
+&lt;li>IT-Security.&lt;/li>
+&lt;li>Write Exploits.&lt;/li>
+&lt;li>Build Frequency Jammer example Wifi.&lt;/li>
+&lt;li>Automation on Administation and Konfiguration.&lt;/li>
+&lt;/ul></description></item><item><title>My First Post</title><link>https://blog.mh.s3c-it.de/post/my-first-post/</link><pubDate>Wed, 15 Feb 2023 07:51:24 +0100</pubDate><guid>https://blog.mh.s3c-it.de/post/my-first-post/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>This is &lt;strong>bold&lt;/strong> text, and this is &lt;em>emphasized&lt;/em> text.&lt;/p>
+&lt;p>Visit the &lt;a href="https://gohugo.io">Hugo&lt;/a> website!&lt;/p>
+&lt;h1 id="h1">H1&lt;/h1>
+&lt;h2 id="h2">H2&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">s&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;Python syntax highlighting&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span> &lt;span class="n">s&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
